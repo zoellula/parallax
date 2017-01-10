@@ -1,0 +1,100 @@
+body, html {
+    height: 100%;
+}
+
+.parallax{
+    /* The image used */
+    background-image: url('assets/puckered.png');
+
+    /* Full height */
+    height: 100%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    /*background-size: cover;*/
+}
+    .logo{
+        background: url('assets/smashing-logo.png');
+        background-position: 50% 25%;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        height: 100%;
+        /*position: relative;*/
+    }
+    .title{
+        width: 100%;
+        top: 300px;
+        position: absolute;
+        text-align: center; 
+    }
+
+.section{
+    height:1000px;
+    margin: 0 auto;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+     /*background-position: center;*/
+    /*font-size:36px;*/
+    /*background-size: cover;*/
+}
+
+#first{
+    background-image: url('assets/slide2.jpg');
+}
+    .article{
+        font-size: 20px;
+        padding: 1px;
+        color:white;
+    }
+        .art1{
+            background-image: url("assets/grain.png");
+            margin-left: 100px;
+            margin-top: 100px;
+            width: 500px;
+            padding: 20px;
+        }    
+
+#second{
+    background-image: url('assets/slide4.jpg');
+}
+    .article .art2{
+            background-image: url("assets/grain.png");
+            margin: 100px 100px 0 auto;
+            width: 450px;
+            padding: 20px;
+            position: absolute; /*THIS*/
+            text-align: center;
+        }
+    .flower{
+        background-image: url('assets/photo.png');
+        background-position: 25%;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        height: 100%;
+    }
+
+#third{
+    background-image: url('assets/slide3.jpg');
+}
+    .article .art3{
+            margin-left: 100px;
+            margin-top: 100px;
+            width: 450px;
+            padding: 20px;
+            /*position: absolute; /*THIS*/
+        }
+    .vid {
+         margin: 0px 300px 0;
+         
+    }
+
+.theend{
+    background: url('assets/theend.png');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+}
